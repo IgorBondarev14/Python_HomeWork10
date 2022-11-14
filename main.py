@@ -8,7 +8,7 @@ from message_log import mes_log
 
 logging.basicConfig(filename='loger.txt', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s, level=logging.Debug')
 
-bot = Bot(token='5434627879:AAHC9uZvBA1fOmqqlF-b1CKzMFGMCmNH_UQ')
+bot = Bot(token='токен')
 dp = Dispatcher(bot)
 
 
